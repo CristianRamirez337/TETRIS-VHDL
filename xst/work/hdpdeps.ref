@@ -1,0 +1,122 @@
+V3 59
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_25MHz.vhd" 2018/11/30.13:52:03 P.20131013
+EN work/CLK_25MHz 1543911977 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_25MHz.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CLK_25MHz/Behavioral 1543911978 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_25MHz.vhd" \
+      EN work/CLK_25MHz 1543911977
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_500HZ.vhd" 2018/11/30.13:52:03 P.20131013
+EN work/CLK_500HZ 1543911981 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_500HZ.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CLK_500HZ/Behavioral 1543911982 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_500HZ.vhd" \
+      EN work/CLK_500HZ 1543911981
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA.vhd" 2018/12/02.19:00:40 P.20131013
+EN work/CLK_FIGURA 1543911979 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CLK_FIGURA/comportamiento 1543911980 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA.vhd" \
+      EN work/CLK_FIGURA 1543911979
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA2.vhd" 2018/12/02.19:00:40 P.20131013
+EN work/CLK_FIGURA2 1543911983 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CLK_FIGURA2/comportamiento 1543911984 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA2.vhd" \
+      EN work/CLK_FIGURA2 1543911983
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DEBOUNCE.vhd" 2018/11/30.13:52:03 P.20131013
+EN work/DEBOUNCE 1543911985 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DEBOUNCE.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/DEBOUNCE/Behavioral 1543911986 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DEBOUNCE.vhd" \
+      EN work/DEBOUNCE 1543911985
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER.vhd" 2018/12/02.18:27:29 P.20131013
+EN work/DECODER 1543911989 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/DECODER/Behavioral 1543911990 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER.vhd" \
+      EN work/DECODER 1543911989
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER_LOGO.vhd" 2018/12/01.00:28:13 P.20131013
+EN work/DECODER_LOGO 1543911975 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER_LOGO.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/DECODER_LOGO/Behavioral 1543911976 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER_LOGO.vhd" \
+      EN work/DECODER_LOGO 1543911975
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DISPLAY.vhd" 2018/11/30.16:58:43 P.20131013
+EN work/DISPLAY 1543911999 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DISPLAY.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/DISPLAY/Behavioral 1543912000 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DISPLAY.vhd" \
+      EN work/DISPLAY 1543911999
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/JK.vhd" 2018/11/30.18:16:11 P.20131013
+EN work/JK 1543911997 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/JK.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/JK/Behavioral 1543911998 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/JK.vhd" \
+      EN work/JK 1543911997
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/lfsr1.vhd" 2018/12/03.22:15:47 P.20131013
+EN work/lfsr1 1543911995 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/lfsr1.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/lfsr1/rtl 1543911996 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/lfsr1.vhd" \
+      EN work/lfsr1 1543911995
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/LOGO_TETRIS.vhd" 2018/12/01.17:34:39 P.20131013
+EN work/LOGO_TETRIS 1543911993 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/LOGO_TETRIS.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LOGO_TETRIS/Behavioral 1543911994 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/LOGO_TETRIS.vhd" \
+      EN work/LOGO_TETRIS 1543911993 CP RAM_TETRIS CP DECODER_LOGO
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/MAIN.vhd" 2018/12/04.02:26:08 P.20131013
+EN work/TETRIS_MAIN 1543912001 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/MAIN.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/TETRIS_MAIN/Behavioral 1543912002 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/MAIN.vhd" \
+      EN work/TETRIS_MAIN 1543912001 CP CLK_25MHz CP CLK_FIGURA CP CLK_500HZ \
+      CP CLK_FIGURA2 CP DEBOUNCE CP RAM CP DECODER CP VGA CP LOGO_TETRIS CP lfsr1 CP JK \
+      CP DISPLAY
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" 2018/12/02.17:38:45 P.20131013
+EN work/RAM 1543911987 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RAM/Behavioral 1543911988 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" \
+      EN work/RAM 1543911987
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd" 2018/12/01.17:34:39 P.20131013
+EN work/RAM_TETRIS 1543911973 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/RAM_TETRIS/Behavioral 1543911974 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd" \
+      EN work/RAM_TETRIS 1543911973
+FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/VGA.vhd" 2018/12/02.19:00:40 P.20131013
+EN work/VGA 1543911991 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/VGA.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/VGA/BEHAVIORAL 1543911992 \
+      FL "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/VGA.vhd" \
+      EN work/VGA 1543911991

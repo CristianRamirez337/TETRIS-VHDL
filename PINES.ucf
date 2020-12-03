@@ -1,0 +1,28 @@
+NET "blue"    LOC = "R11";
+NET "clk"     LOC = "T9";
+NET "green"   LOC = "T12";
+NET "hs_out"  LOC = "R9";
+NET "red"     LOC = "R12";
+NET "vs_out"  LOC = "T10";
+NET "LEDOUT"  LOC = "L12";
+NET "BRIGHT"  LOC = "D12";
+NET "BLEFT"   LOC = "D16";
+NET "BDOWN"   LOC = "B16";
+NET "BRESET"  LOC = "E10";
+NET "BGIRO"   LOC = "D11";
+NET "BUZZER"  LOC = "C10";
+NET "LEDIN"   LOC = "K12";
+NET "EN(0)"   LOC = "D14";
+NET "EN(1)"   LOC = "G14";
+NET "EN(2)"   LOC = "F14";
+NET "EN(3)"   LOC = "E13";
+
+
+NET "S8(0)" LOC = "E14";
+NET "S8(1)" LOC = "G13";
+NET "S8(2)" LOC = "N15";
+NET "S8(3)" LOC = "P15";
+NET "S8(4)" LOC = "R16";
+NET "S8(5)" LOC = "F13";
+NET "S8(6)" LOC = "N16";
+NET "S8(7)" LOC = "P16";

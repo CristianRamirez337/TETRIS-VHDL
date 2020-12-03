@@ -1,0 +1,38 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4
+TETRIS_MAIN.ngc TETRIS_MAIN.ngd
+
+Reading NGO file "C:/Users/Jesus
+Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "PINES.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 4419348 kilobytes
+
+Writing NGD file "TETRIS_MAIN.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "TETRIS_MAIN.bld"...

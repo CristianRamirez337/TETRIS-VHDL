@@ -1,0 +1,31 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.STD_LOGIC_ARITH.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity CLK_25MHz is
+    Port ( CLK : in  STD_LOGIC;
+           CLKOUT : out  STD_LOGIC);
+end CLK_25MHz;
+
+architecture Behavioral of CLK_25MHz is
+	SIGNAL CLK25: STD_LOGIC;
+begin
+	-- RELOJ DE 25MHZ
+	PROCESS (CLK)
+		BEGIN
+		IF CLK'EVENT AND CLK='1' THEN
+		
+			IF (CLK25 = '0') THEN              
+			CLK25 <= '1';
+			ELSE
+			CLK25 <= '0';
+			END IF;
+		ELSE NULL;
+		END IF;
+	END PROCESS;
+	
+	CLKOUT <= CLK25;
+
+end Behavioral;
+

@@ -1,0 +1,594 @@
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 
+xst -intstyle ise -ifn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.xst" -ofn "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/TETRIS_MAIN.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PINES.ucf -p xc3s200-ft256-4 "TETRIS_MAIN.ngc" TETRIS_MAIN.ngd  
+map -intstyle ise -p xc3s200-ft256-4 -cm area -ir off -pr off -c 100 -o TETRIS_MAIN_map.ncd TETRIS_MAIN.ngd TETRIS_MAIN.pcf 
+par -w -intstyle ise -ol high -t 1 TETRIS_MAIN_map.ncd TETRIS_MAIN.ncd TETRIS_MAIN.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TETRIS_MAIN.twx TETRIS_MAIN.ncd -o TETRIS_MAIN.twr TETRIS_MAIN.pcf -ucf PINES.ucf 
+bitgen -intstyle ise -f TETRIS_MAIN.ut TETRIS_MAIN.ncd 

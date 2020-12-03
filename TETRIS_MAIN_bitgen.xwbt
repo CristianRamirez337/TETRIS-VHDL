@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Jesus Anaya\Documents\Clases\LaboratorioDeSistemasDigitales\Tetris2.0\TETRIS_MAIN.ncd
+OUTFILE=C:\Users\Jesus Anaya\Documents\Clases\LaboratorioDeSistemasDigitales\Tetris2.0\TETRIS_MAIN.bit
+FAMILY=Spartan3
+PART=xc3s200-4ft256
+WORKINGDIR=C:\Users\Jesus Anaya\Documents\Clases\LaboratorioDeSistemasDigitales\Tetris2.0
+LICENSE=WebPack
+USER_INFO=211569077_0_0_511

@@ -1,0 +1,1800 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.65 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.65 secs
+ 
+--> Reading design: TETRIS_MAIN.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TETRIS_MAIN.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TETRIS_MAIN"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-ft256
+
+---- Source Options
+Top Module Name                    : TETRIS_MAIN
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Area
+Optimization Effort                : 2
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd" in Library work.
+Architecture behavioral of Entity ram_tetris is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER_LOGO.vhd" in Library work.
+Architecture behavioral of Entity decoder_logo is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_25MHz.vhd" in Library work.
+Architecture behavioral of Entity clk_25mhz is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA.vhd" in Library work.
+Architecture comportamiento of Entity clk_figura is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_500HZ.vhd" in Library work.
+Architecture behavioral of Entity clk_500hz is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA2.vhd" in Library work.
+Architecture comportamiento of Entity clk_figura2 is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DEBOUNCE.vhd" in Library work.
+Architecture behavioral of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" in Library work.
+Architecture behavioral of Entity ram is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER.vhd" in Library work.
+Architecture behavioral of Entity decoder is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/VGA.vhd" in Library work.
+Architecture behavioral of Entity vga is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/LOGO_TETRIS.vhd" in Library work.
+Architecture behavioral of Entity logo_tetris is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/lfsr1.vhd" in Library work.
+Architecture rtl of Entity lfsr1 is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/JK.vhd" in Library work.
+Architecture behavioral of Entity jk is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DISPLAY.vhd" in Library work.
+Architecture behavioral of Entity display is up to date.
+Compiling vhdl file "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/MAIN.vhd" in Library work.
+Entity <tetris_main> compiled.
+Entity <tetris_main> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <TETRIS_MAIN> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLK_25MHz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLK_FIGURA> in library <work> (architecture <comportamiento>).
+
+Analyzing hierarchy for entity <CLK_500HZ> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CLK_FIGURA2> in library <work> (architecture <comportamiento>).
+
+Analyzing hierarchy for entity <DEBOUNCE> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RAM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DECODER> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <VGA> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <LOGO_TETRIS> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <lfsr1> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <JK> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DISPLAY> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RAM_TETRIS> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DECODER_LOGO> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <TETRIS_MAIN> in library <work> (Architecture <behavioral>).
+WARNING:Xst:1610 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/MAIN.vhd" line 1027: Width mismatch. <Y> has a width of 4 bits but assigned expression is 5-bit wide.
+WARNING:Xst:1610 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/MAIN.vhd" line 1036: Width mismatch. <Y> has a width of 4 bits but assigned expression is 5-bit wide.
+Entity <TETRIS_MAIN> analyzed. Unit <TETRIS_MAIN> generated.
+
+Analyzing Entity <CLK_25MHz> in library <work> (Architecture <behavioral>).
+Entity <CLK_25MHz> analyzed. Unit <CLK_25MHz> generated.
+
+Analyzing Entity <CLK_FIGURA> in library <work> (Architecture <comportamiento>).
+Entity <CLK_FIGURA> analyzed. Unit <CLK_FIGURA> generated.
+
+Analyzing Entity <CLK_500HZ> in library <work> (Architecture <behavioral>).
+Entity <CLK_500HZ> analyzed. Unit <CLK_500HZ> generated.
+
+Analyzing Entity <CLK_FIGURA2> in library <work> (Architecture <comportamiento>).
+Entity <CLK_FIGURA2> analyzed. Unit <CLK_FIGURA2> generated.
+
+Analyzing Entity <DEBOUNCE> in library <work> (Architecture <behavioral>).
+Entity <DEBOUNCE> analyzed. Unit <DEBOUNCE> generated.
+
+Analyzing Entity <RAM> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" line 45: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" line 45: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" line 46: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" line 46: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd" line 51: Index value(s) does not match array range, simulation mismatch.
+Entity <RAM> analyzed. Unit <RAM> generated.
+
+Analyzing Entity <DECODER> in library <work> (Architecture <behavioral>).
+Entity <DECODER> analyzed. Unit <DECODER> generated.
+
+Analyzing Entity <VGA> in library <work> (Architecture <behavioral>).
+Entity <VGA> analyzed. Unit <VGA> generated.
+
+Analyzing Entity <LOGO_TETRIS> in library <work> (Architecture <behavioral>).
+Entity <LOGO_TETRIS> analyzed. Unit <LOGO_TETRIS> generated.
+
+Analyzing Entity <RAM_TETRIS> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd" line 35: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd" line 58: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:790 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd" line 58: Index value(s) does not match array range, simulation mismatch.
+Entity <RAM_TETRIS> analyzed. Unit <RAM_TETRIS> generated.
+
+Analyzing Entity <DECODER_LOGO> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER_LOGO.vhd" line 23: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <CLK>
+WARNING:Xst:819 - "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER_LOGO.vhd" line 93: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <CLK>
+Entity <DECODER_LOGO> analyzed. Unit <DECODER_LOGO> generated.
+
+Analyzing Entity <lfsr1> in library <work> (Architecture <rtl>).
+Entity <lfsr1> analyzed. Unit <lfsr1> generated.
+
+Analyzing Entity <JK> in library <work> (Architecture <behavioral>).
+Entity <JK> analyzed. Unit <JK> generated.
+
+Analyzing Entity <DISPLAY> in library <work> (Architecture <behavioral>).
+Entity <DISPLAY> analyzed. Unit <DISPLAY> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <CLK_25MHz>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_25MHz.vhd".
+    Found 1-bit register for signal <CLK25>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <CLK_25MHz> synthesized.
+
+
+Synthesizing Unit <CLK_FIGURA>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA.vhd".
+    Found 1-bit register for signal <clockout>.
+    Found 26-bit up counter for signal <cont>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <CLK_FIGURA> synthesized.
+
+
+Synthesizing Unit <CLK_500HZ>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_500HZ.vhd".
+    Found 1-bit register for signal <C500HZ>.
+    Found 16-bit up counter for signal <COUNTER>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <CLK_500HZ> synthesized.
+
+
+Synthesizing Unit <CLK_FIGURA2>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA2.vhd".
+    Found 1-bit register for signal <clockout>.
+    Found 26-bit up counter for signal <cont>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <CLK_FIGURA2> synthesized.
+
+
+Synthesizing Unit <DEBOUNCE>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DEBOUNCE.vhd".
+    Found 1-bit register for signal <Q1>.
+    Found 1-bit register for signal <Q2>.
+    Found 1-bit register for signal <Q3>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <DEBOUNCE> synthesized.
+
+
+Synthesizing Unit <RAM>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd".
+    Found 30-bit register for signal <memoria<10>>.
+    Found 30-bit register for signal <memoria<11>>.
+    Found 30-bit register for signal <memoria<12>>.
+    Found 30-bit register for signal <memoria<13>>.
+    Found 30-bit register for signal <memoria<14>>.
+    Found 30-bit register for signal <memoria<15>>.
+    Found 30-bit register for signal <memoria<16>>.
+    Found 30-bit register for signal <memoria<17>>.
+    Found 30-bit register for signal <memoria<18>>.
+    Found 30-bit register for signal <memoria<19>>.
+    Found 30-bit register for signal <memoria<1>>.
+    Found 30-bit register for signal <memoria<2>>.
+    Found 30-bit register for signal <memoria<3>>.
+    Found 30-bit register for signal <memoria<4>>.
+    Found 30-bit register for signal <memoria<5>>.
+    Found 30-bit register for signal <memoria<6>>.
+    Found 30-bit register for signal <memoria<7>>.
+    Found 30-bit register for signal <memoria<8>>.
+    Found 30-bit register for signal <memoria<9>>.
+    Summary:
+	inferred 570 D-type flip-flop(s).
+Unit <RAM> synthesized.
+
+
+Synthesizing Unit <DECODER>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER.vhd".
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0000> created at line 19.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0001> created at line 20.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0002> created at line 22.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0003> created at line 24.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0004> created at line 26.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0005> created at line 28.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0006> created at line 30.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0007> created at line 32.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0008> created at line 34.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0009> created at line 36.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0000> created at line 19.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0001> created at line 20.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0002> created at line 22.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0003> created at line 24.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0004> created at line 26.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0005> created at line 28.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0006> created at line 30.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0007> created at line 32.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0008> created at line 34.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0009> created at line 36.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0000> created at line 46.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0001> created at line 47.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0002> created at line 49.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0003> created at line 51.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0004> created at line 53.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0005> created at line 55.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0006> created at line 57.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0007> created at line 59.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0008> created at line 61.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0009> created at line 63.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0010> created at line 65.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0011> created at line 67.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0012> created at line 69.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0013> created at line 71.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0014> created at line 73.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0015> created at line 75.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0016> created at line 77.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0017> created at line 79.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0018> created at line 81.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0000> created at line 46.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0001> created at line 47.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0002> created at line 49.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0003> created at line 51.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0004> created at line 53.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0005> created at line 55.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0006> created at line 57.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0007> created at line 59.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0008> created at line 61.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0009> created at line 63.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0010> created at line 65.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0011> created at line 67.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0012> created at line 69.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0013> created at line 71.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0014> created at line 73.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0015> created at line 75.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0016> created at line 77.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0017> created at line 79.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0018> created at line 81.
+    Summary:
+	inferred  58 Comparator(s).
+Unit <DECODER> synthesized.
+
+
+Synthesizing Unit <VGA>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/VGA.vhd".
+    Found 1-bit register for signal <BLUE>.
+    Found 1-bit register for signal <GREEN>.
+    Found 1-bit register for signal <Vs_OUT>.
+    Found 1-bit register for signal <RED>.
+    Found 1-bit register for signal <Hs_OUT>.
+    Found 10-bit comparator greatequal for signal <BLUE$cmp_ge0000> created at line 32.
+    Found 10-bit comparator greatequal for signal <BLUE$cmp_ge0001> created at line 51.
+    Found 10-bit comparator greater for signal <BLUE$cmp_gt0000> created at line 73.
+    Found 10-bit comparator greater for signal <BLUE$cmp_gt0001> created at line 73.
+    Found 10-bit comparator greater for signal <BLUE$cmp_gt0002> created at line 81.
+    Found 10-bit comparator lessequal for signal <BLUE$cmp_le0000> created at line 32.
+    Found 10-bit comparator lessequal for signal <BLUE$cmp_le0001> created at line 51.
+    Found 10-bit comparator less for signal <BLUE$cmp_lt0000> created at line 73.
+    Found 10-bit comparator less for signal <BLUE$cmp_lt0001> created at line 73.
+    Found 10-bit comparator less for signal <BLUE$cmp_lt0002> created at line 81.
+    Found 10-bit up counter for signal <Hs>.
+    Found 10-bit comparator greater for signal <Hs_OUT$cmp_gt0000> created at line 94.
+    Found 10-bit comparator less for signal <Hs_OUT$cmp_lt0000> created at line 94.
+    Found 10-bit up counter for signal <Vs>.
+    Found 10-bit comparator greater for signal <Vs_OUT$cmp_gt0000> created at line 100.
+    Found 10-bit comparator less for signal <Vs_OUT$cmp_lt0000> created at line 100.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   5 D-type flip-flop(s).
+	inferred  14 Comparator(s).
+Unit <VGA> synthesized.
+
+
+Synthesizing Unit <lfsr1>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/lfsr1.vhd".
+    Found 4-bit comparator greater for signal <count$cmp_gt0000> created at line 31.
+    Found 4-bit comparator less for signal <count$cmp_lt0000> created at line 31.
+    Found 4-bit comparator less for signal <count$cmp_lt0001> created at line 31.
+    Found 4-bit register for signal <count_i>.
+    Found 1-bit xor2 for signal <feedback$xor0000> created at line 19.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <lfsr1> synthesized.
+
+
+Synthesizing Unit <JK>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/JK.vhd".
+Unit <JK> synthesized.
+
+
+Synthesizing Unit <DISPLAY>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DISPLAY.vhd".
+    Found finite state machine <FSM_0> for signal <STATE>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 4                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Power Up State     | 1000                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16x8-bit ROM for signal <S8>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+Unit <DISPLAY> synthesized.
+
+
+Synthesizing Unit <RAM_TETRIS>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd".
+    Found 3-bit register for signal <OutRGB>.
+    Found 93-bit register for signal <memoria<1>>.
+    Found 93-bit register for signal <memoria<2>>.
+    Found 93-bit register for signal <memoria<3>>.
+    Found 93-bit register for signal <memoria<4>>.
+    Found 93-bit register for signal <memoria<5>>.
+    Found 93-bit register for signal <memoria<6>>.
+    Found 93-bit register for signal <memoria<7>>.
+    Found 93-bit register for signal <memoria<8>>.
+    Summary:
+	inferred 747 D-type flip-flop(s).
+Unit <RAM_TETRIS> synthesized.
+
+
+Synthesizing Unit <DECODER_LOGO>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER_LOGO.vhd".
+    Found 4-bit register for signal <VS_OUT>.
+    Found 5-bit register for signal <HS_OUT>.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0000> created at line 24.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0001> created at line 25.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0002> created at line 27.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0003> created at line 29.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0004> created at line 31.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0005> created at line 33.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0006> created at line 35.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0007> created at line 37.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0008> created at line 39.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0009> created at line 41.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0010> created at line 43.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0011> created at line 45.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0012> created at line 47.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0013> created at line 49.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0014> created at line 51.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0015> created at line 53.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0016> created at line 55.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0017> created at line 57.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0018> created at line 59.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0019> created at line 61.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0020> created at line 63.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0021> created at line 65.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0022> created at line 67.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0023> created at line 69.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0024> created at line 71.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0025> created at line 73.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0026> created at line 75.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0027> created at line 77.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0028> created at line 79.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0029> created at line 81.
+    Found 10-bit comparator greater for signal <HS_OUT$cmp_gt0030> created at line 83.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0000> created at line 24.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0001> created at line 25.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0002> created at line 27.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0003> created at line 29.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0004> created at line 31.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0005> created at line 33.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0006> created at line 35.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0007> created at line 37.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0008> created at line 39.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0009> created at line 41.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0010> created at line 43.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0011> created at line 45.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0012> created at line 47.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0013> created at line 49.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0014> created at line 51.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0015> created at line 53.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0016> created at line 55.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0017> created at line 57.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0018> created at line 59.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0019> created at line 61.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0020> created at line 63.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0021> created at line 65.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0022> created at line 67.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0023> created at line 69.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0024> created at line 71.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0025> created at line 73.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0026> created at line 75.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0027> created at line 77.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0028> created at line 79.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0029> created at line 81.
+    Found 10-bit comparator less for signal <HS_OUT$cmp_lt0030> created at line 83.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0000> created at line 94.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0001> created at line 95.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0002> created at line 97.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0003> created at line 99.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0004> created at line 101.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0005> created at line 103.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0006> created at line 105.
+    Found 10-bit comparator greater for signal <VS_OUT$cmp_gt0007> created at line 107.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0000> created at line 94.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0001> created at line 95.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0002> created at line 97.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0003> created at line 99.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0004> created at line 101.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0005> created at line 103.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0006> created at line 105.
+    Found 10-bit comparator less for signal <VS_OUT$cmp_lt0007> created at line 107.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+	inferred  78 Comparator(s).
+Unit <DECODER_LOGO> synthesized.
+
+
+Synthesizing Unit <LOGO_TETRIS>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/LOGO_TETRIS.vhd".
+WARNING:Xst:1780 - Signal <Y_POS> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <X_POS> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <CLK4Hz> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:1780 - Signal <ADDRESS_WRT> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 12-bit up counter for signal <CONTADOR>.
+    Found 3-bit register for signal <InRGB>.
+    Found 1-bit register for signal <WRT_ENABLE>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   4 D-type flip-flop(s).
+Unit <LOGO_TETRIS> synthesized.
+
+
+Synthesizing Unit <TETRIS_MAIN>.
+    Related source file is "C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/MAIN.vhd".
+WARNING:Xst:1780 - Signal <UP> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <PDOWN> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <PABAJO> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <J> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <DOWN> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <CLK025> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <ADDRESS2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <ESTADO>.
+    Found 4-bit register for signal <A>.
+    Found 4-bit adder for signal <A$addsub0000> created at line 485.
+    Found 4-bit register for signal <AUX>.
+    Found 5-bit register for signal <AUXX>.
+    Found 4-bit register for signal <B>.
+    Found 4-bit adder for signal <B$addsub0000> created at line 490.
+    Found 1-bit register for signal <BORRANDO>.
+    Found 4-bit register for signal <C>.
+    Found 4-bit adder for signal <C$addsub0000> created at line 494.
+    Found 3-bit up counter for signal <CONTBOR>.
+    Found 3-bit comparator greater for signal <CONTBOR$cmp_gt0000> created at line 455.
+    Found 4-bit register for signal <D>.
+    Found 4-bit adder for signal <D$addsub0000> created at line 497.
+    Found 117-bit register for signal <ESTADO>.
+    Found 5-bit comparator greater for signal <ESTADO$cmp_gt0006> created at line 222.
+    Found 4-bit comparator greater for signal <ESTADO$cmp_gt0007> created at line 397.
+    Found 5-bit comparator greater for signal <ESTADO$cmp_gt0008> created at line 534.
+    Found 5-bit comparator greater for signal <ESTADO$cmp_gt0009> created at line 682.
+    Found 4-bit comparator greater for signal <ESTADO$cmp_gt0010> created at line 901.
+    Found 4-bit comparator less for signal <ESTADO$cmp_lt0004> created at line 355.
+    Found 5-bit comparator less for signal <ESTADO$cmp_lt0005> created at line 609.
+    Found 4-bit comparator less for signal <ESTADO$cmp_lt0006> created at line 874.
+    Found 117-bit 4-to-1 multiplexer for signal <ESTADO$mux0140> created at line 971.
+    Found 1-bit register for signal <ESTADOGIRO>.
+    Found 3-bit register for signal <FIGURA>.
+    Found 1-bit register for signal <GAMEOVER>.
+    Found 1-bit register for signal <K>.
+    Found 1-bit register for signal <KDE>.
+    Found 1-bit register for signal <KGIRO>.
+    Found 1-bit register for signal <KIZ>.
+    Found 3-bit register for signal <LECTURA_ANT>.
+    Found 1-bit register for signal <LLENO>.
+    Found 1-bit register for signal <RESETNA>.
+    Found 1-bit register for signal <SHIF>.
+    Found 1-bit register for signal <Wrt_EN>.
+    Found 5-bit register for signal <X>.
+    Found 5-bit adder for signal <X$add0000> created at line 993.
+    Found 5-bit comparator equal for signal <X$cmp_eq0000> created at line 472.
+    Found 5-bit comparator greater for signal <X$cmp_gt0000> created at line 985.
+    Found 5-bit comparator less for signal <X$cmp_lt0000> created at line 985.
+    Found 5-bit adder for signal <X$share0000> created at line 345.
+    Found 5-bit subtractor for signal <X$sub0000> created at line 1001.
+    Found 5-bit subtractor for signal <X$sub0001> created at line 1004.
+    Found 5-bit subtractor for signal <X$sub0002> created at line 996.
+    Found 4-bit register for signal <Y>.
+    Found 4-bit addsub for signal <Y$share0000>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred 168 D-type flip-flop(s).
+	inferred  10 Adder/Subtractor(s).
+	inferred  12 Comparator(s).
+	inferred 117 Multiplexer(s).
+Unit <TETRIS_MAIN> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 10
+ 4-bit adder                                           : 4
+ 4-bit addsub                                          : 1
+ 5-bit adder                                           : 2
+ 5-bit subtractor                                      : 3
+# Counters                                             : 6
+ 10-bit up counter                                     : 2
+ 16-bit up counter                                     : 1
+ 26-bit up counter                                     : 2
+ 3-bit up counter                                      : 1
+# Registers                                            : 507
+ 1-bit register                                        : 54
+ 117-bit register                                      : 1
+ 3-bit register                                        : 441
+ 4-bit register                                        : 8
+ 5-bit register                                        : 3
+# Comparators                                          : 165
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator greater                             : 73
+ 10-bit comparator less                                : 73
+ 10-bit comparator lessequal                           : 2
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 3
+ 4-bit comparator less                                 : 4
+ 5-bit comparator equal                                : 1
+ 5-bit comparator greater                              : 4
+ 5-bit comparator less                                 : 2
+# Multiplexers                                         : 1
+ 117-bit 4-to-1 multiplexer                            : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <PUNTAJES/STATE/FSM> on signal <STATE[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 1000  | 1000
+ 0001  | 0001
+ 0010  | 0010
+ 0100  | 0100
+-------------------
+INFO:Xst:2261 - The FF/Latch <InRGB_0> in Unit <LOGO> is equivalent to the following FF/Latch, which will be removed : <InRGB_2> 
+WARNING:Xst:1293 - FF/Latch <memoria<3>_7_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_28_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_28_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_20_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_20_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_4_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_15_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_15_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_30_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_30_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_25_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_25_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_12_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_22_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_17_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_17_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_6_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_6_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_27_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_27_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_3_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_17_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_27_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_27_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_14_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_24_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_19_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_19_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_8_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_29_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_21_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_5_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_16_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_16_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_31_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_31_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_26_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_26_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_13_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_23_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_23_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_18_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_7_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_15_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_15_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_20_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_20_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_4_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_4_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_25_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_25_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_30_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_1_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_12_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_12_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_17_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_17_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_22_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_22_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_27_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_14_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_3_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_3_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_19_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_14_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_24_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_24_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_19_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_19_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_11_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_29_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_29_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_16_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_16_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_5_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_26_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_26_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_31_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_2_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_13_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_18_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_23_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_23_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_10_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_28_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_28_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_1_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_9_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_8_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_7_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_7_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_6_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_6_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_5_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_4_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_3_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_3_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_2_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_2_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_29_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_1_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_28_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_27_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_29_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_31_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_26_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_28_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <FIGURA_2> (without init value) has a constant value of 0 in block <TETRIS_MAIN>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <FIGURA_1> (without init value) has a constant value of 0 in block <TETRIS_MAIN>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <WRT_ENABLE> (without init value) has a constant value of 0 in block <LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <InRGB_1> (without init value) has a constant value of 1 in block <LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <InRGB_0> (without init value) has a constant value of 0 in block <LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_6_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_6_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_8_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_9_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_5_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_7_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_4_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_6_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_3_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_3_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_5_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_2_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_2_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_4_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_1_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_3_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_2_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_19_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_19_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_29_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_29_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_21_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_16_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_31_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_26_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_23_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_7_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_18_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_18_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_28_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_28_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_20_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_15_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_9_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_30_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_22_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_22_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_6_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_17_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_28_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_25_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_27_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_27_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_30_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_24_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_19_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_29_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_29_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_31_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_23_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_18_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_28_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_28_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_30_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_9_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_22_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_17_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_27_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_27_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_24_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<8>_8_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_10_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_10_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_15_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_12_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_17_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_22_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_7_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_7_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_14_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_9_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_11_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_11_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_16_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_21_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_6_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_6_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_13_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_8_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_10_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_10_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_15_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_20_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_20_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_25_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_30_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_12_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_12_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_17_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_17_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_22_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_14_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_24_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_9_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_19_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_11_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_11_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_21_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_21_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_16_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_13_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_18_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_23_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_8_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_3_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_10_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_2_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_1_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_9_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_8_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_7_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_7_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_6_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_6_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_5_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_4_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_4_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_3_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_3_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_2_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_2_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_1_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_9_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_8_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_7_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_7_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_20_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_5_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_12_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_12_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_7_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_14_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_4_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_11_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_11_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_6_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_13_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_3_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_3_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_10_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_10_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_5_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_12_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_2_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_2_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_4_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_11_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_1_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_28_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_15_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_15_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_30_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_30_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_12_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_12_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_1_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_17_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_17_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_22_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_22_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_27_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_27_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_14_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_24_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_24_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_19_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_19_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_29_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_11_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_19_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_24_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_24_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_29_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_29_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_16_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_16_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_11_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_11_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_21_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_21_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_31_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_26_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_13_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_2_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_2_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_18_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_23_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_23_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_10_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<7>_10_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_28_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_22_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_27_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_14_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_19_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_19_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_24_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_24_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_11_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_11_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_16_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_16_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_21_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_26_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_31_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_13_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_18_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_18_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_23_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_10_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_10_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_15_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_15_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_11_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_16_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_16_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_21_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_31_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_31_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_13_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_18_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_23_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<1>_28_1> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_10_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<6>_10_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_15_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_15_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_20_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<4>_20_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_30_1> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<2>_30_0> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_12_2> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<5>_12_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_17_2> has a constant value of 1 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <memoria<3>_17_0> has a constant value of 0 in block <RAM_LOGO>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <ESTADO_105> of sequential type is unconnected in block <TETRIS_MAIN>.
+WARNING:Xst:2677 - Node <ESTADO_105> of sequential type is unconnected in block <TETRIS_MAIN>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 10
+ 4-bit adder                                           : 4
+ 4-bit addsub                                          : 1
+ 5-bit adder                                           : 2
+ 5-bit subtractor                                      : 3
+# Counters                                             : 6
+ 10-bit up counter                                     : 2
+ 16-bit up counter                                     : 1
+ 26-bit up counter                                     : 2
+ 3-bit up counter                                      : 1
+# Registers                                            : 1540
+ Flip-Flops                                            : 1540
+# Comparators                                          : 165
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator greater                             : 73
+ 10-bit comparator less                                : 73
+ 10-bit comparator lessequal                           : 2
+ 3-bit comparator greater                              : 1
+ 4-bit comparator greater                              : 3
+ 4-bit comparator less                                 : 4
+ 5-bit comparator equal                                : 1
+ 5-bit comparator greater                              : 4
+ 5-bit comparator less                                 : 2
+# Multiplexers                                         : 1
+ 117-bit 4-to-1 multiplexer                            : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <InRGB_0> (without init value) has a constant value of 0 in block <LOGO_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <InRGB_1> (without init value) has a constant value of 1 in block <LOGO_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <InRGB_2> (without init value) has a constant value of 0 in block <LOGO_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <WRT_ENABLE> (without init value) has a constant value of 0 in block <LOGO_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <memoria<6>_29_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_29_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_20_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_20_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_15_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_15_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_10_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_10_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<4>_6_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<4>_6_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<8>_31_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<8>_31_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_23_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_23_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_3_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_3_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_27_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_27_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_22_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_22_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_2_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_2_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<4>_12_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<4>_12_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_12_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_12_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<1>_1_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<1>_1_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_16_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_16_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_21_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_21_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<4>_3_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<4>_3_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_2_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_2_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_11_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_11_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<3>_29_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<3>_29_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_15_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_15_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<7>_20_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<7>_20_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<4>_2_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<4>_2_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<1>_31_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<1>_31_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<4>_23_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<4>_23_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<7>_7_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<7>_7_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<8>_1_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<8>_1_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_27_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_27_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_7_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_7_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<7>_6_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<7>_6_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<4>_22_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<4>_22_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_26_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_26_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<5>_12_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<5>_12_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<7>_12_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<7>_12_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_6_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_6_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<2>_21_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<2>_21_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<6>_16_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<6>_16_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<3>_30_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<3>_30_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<4>_7_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<4>_7_2> 
+INFO:Xst:2261 - The FF/Latch <memoria<7>_11_0> in Unit <RAM_TETRIS> is equivalent to the following FF/Latch, which will be removed : <memoria<7>_11_2> 
+WARNING:Xst:1293 - FF/Latch <memoria<6>_18_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_7_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_7_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_28_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_28_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_20_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_4_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_15_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_15_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_30_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_30_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_25_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_25_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_12_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_22_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_17_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_17_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_6_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_6_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_17_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_17_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_27_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_14_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_24_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_19_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_19_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_8_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_29_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_21_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_5_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_16_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_16_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_31_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_31_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_26_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_13_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_23_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_23_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_10_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_28_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_28_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_15_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_20_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_4_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_4_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_25_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_25_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_30_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_1_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_12_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_17_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_17_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_22_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_27_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_14_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_3_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_3_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_27_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_27_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_3_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_14_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_24_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_24_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_19_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_19_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_11_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_29_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_16_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_5_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_26_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_26_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_31_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_2_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_13_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_18_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_23_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_7_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_7_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_6_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_6_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_5_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_4_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_3_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_3_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_2_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_29_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_1_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_28_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_27_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_29_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_31_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_26_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_28_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_28_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_25_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_6_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_8_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_9_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_5_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_7_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_4_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_6_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_3_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_3_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_5_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_2_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_2_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_4_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_1_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_3_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_2_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_1_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_9_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_8_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_29_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_29_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_21_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_16_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_31_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_26_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_23_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_7_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_18_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_18_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_28_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_28_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_20_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_15_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_9_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_30_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_22_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_22_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_6_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_27_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_27_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_30_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_24_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_19_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_29_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_31_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_23_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_18_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_28_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_28_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_30_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_9_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_22_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_17_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_27_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_24_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<8>_8_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_19_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_19_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_8_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_10_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_10_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_15_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_12_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_17_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_22_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_7_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_14_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_9_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_11_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_11_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_16_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_21_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_6_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_13_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_8_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_10_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_10_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_20_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_20_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_25_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_30_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_12_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_17_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_17_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_22_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_14_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_24_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_9_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_19_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_11_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_11_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_21_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_16_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_13_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_18_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_23_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_11_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_1_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_3_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_10_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_2_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_1_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_9_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_8_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_7_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_6_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_5_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_4_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_4_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_3_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_2_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_1_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_9_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_8_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_7_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_15_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_20_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_5_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_12_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_12_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_7_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_14_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_4_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_11_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_11_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_6_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_13_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_3_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_10_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_10_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_5_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_12_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_2_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_4_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_28_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_15_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_30_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_12_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_1_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_17_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_17_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_22_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_27_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_27_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_14_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_24_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_24_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_19_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_19_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_29_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_11_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_16_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_16_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_19_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_19_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_24_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_24_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_29_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_29_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_16_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_11_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_21_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_31_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_26_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_13_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_2_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_2_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_18_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_23_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_10_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<7>_10_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_28_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_14_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_19_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_19_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_24_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_24_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_11_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_11_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_16_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_16_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_21_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_26_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_31_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_13_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_18_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_18_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_23_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_10_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_15_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_15_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_21_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_31_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_31_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_13_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_18_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_23_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_28_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_10_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<6>_10_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_15_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_15_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_20_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<4>_20_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_30_1> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<2>_30_0> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<5>_12_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_17_2> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_17_0> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<3>_22_2> has a constant value of 0 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <memoria<1>_27_1> has a constant value of 1 in block <RAM_TETRIS>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <memoria<7>_9_0> in Unit <RAM_TETRIS> is equivalent to the following 137 FFs/Latches, which will be removed : <memoria<4>_1_1> <memoria<4>_4_2> <memoria<4>_5_2> <memoria<4>_9_0> <memoria<6>_1_1> <memoria<2>_10_0> <memoria<2>_11_2> <memoria<2>_12_2> <memoria<6>_5_2> <memoria<3>_11_2> <memoria<2>_14_2> <memoria<2>_15_2> <memoria<2>_20_1> <memoria<2>_20_2> <memoria<4>_10_0> <memoria<2>_16_2> <memoria<6>_9_0> <memoria<3>_14_2> <memoria<2>_22_0> <memoria<2>_22_1> <memoria<2>_17_1> <memoria<3>_15_2> <memoria<2>_23_0> <memoria<2>_23_1> <memoria<2>_18_1> <memoria<3>_21_1> <memoria<3>_21_2> <memoria<3>_16_2> <memoria<2>_24_1> <memoria<2>_19_1> <memoria<4>_14_2> <memoria<3>_22_0> <memoria<3>_22_1> <memoria<3>_17_1> <memoria<2>_30_2> <memoria<2>_25_0> <memoria<2>_25_1> <memoria<6>_10_0> <memoria<3>_23_0> <memoria<3>_23_1> <memoria<3>_18_1> <memoria<3>_18_2> <memoria<2>_31_1> <memoria<2>_26_0> <memoria<2>_26_1> <memoria<4>_21_1> <memoria<4>_21_2> <memoria<3>_24_1> <memoria<5>_14_2>
+   <memoria<2>_27_0> <memoria<4>_17_1> <memoria<3>_1_1> <memoria<3>_25_0> <memoria<3>_25_1> <memoria<5>_20_1> <memoria<5>_20_2> <memoria<2>_28_2> <memoria<7>_10_0> <memoria<4>_18_1> <memoria<4>_18_2> <memoria<3>_2_2> <memoria<3>_26_0> <memoria<3>_26_1> <memoria<3>_31_1> <memoria<2>_29_2> <memoria<4>_24_1> <memoria<3>_3_2> <memoria<6>_14_2> <memoria<3>_27_0> <memoria<3>_27_2> <memoria<5>_17_1> <memoria<4>_30_0> <memoria<4>_30_2> <memoria<3>_4_2> <memoria<5>_18_1> <memoria<5>_18_2> <memoria<4>_31_1> <memoria<3>_5_2> <memoria<6>_21_1> <memoria<6>_21_2> <memoria<5>_19_1> <memoria<5>_24_1> <memoria<7>_14_2> <memoria<4>_27_0> <memoria<3>_6_2> <memoria<6>_17_1> <memoria<6>_22_0> <memoria<6>_22_1> <memoria<5>_30_2> <memoria<4>_28_2> <memoria<3>_7_2> <memoria<6>_18_1> <memoria<6>_18_2> <memoria<6>_23_1> <memoria<5>_31_1> <memoria<7>_21_1> <memoria<7>_21_2> <memoria<4>_29_0> <memoria<4>_29_2> <memoria<6>_24_0> <memoria<6>_24_1> <memoria<7>_17_1> <memoria<7>_22_1> <memoria<6>_30_0> <memoria<6>_30_2> <memoria<3>_9_0>
+   <memoria<6>_25_0> <memoria<6>_25_1> <memoria<7>_18_1> <memoria<7>_23_0> <memoria<7>_23_1> <memoria<6>_26_0> <memoria<6>_26_1> <memoria<6>_31_1> <memoria<7>_24_0> <memoria<7>_24_1> <memoria<7>_25_0> <memoria<7>_25_1> <memoria<7>_30_0> <memoria<7>_30_2> <memoria<7>_26_0> <memoria<7>_26_1> <memoria<7>_31_1> <memoria<7>_27_0> <memoria<7>_28_2> <memoria<7>_29_0> <memoria<7>_29_2> <memoria<5>_1_1> <memoria<5>_5_2> <memoria<5>_9_0> <memoria<2>_1_1> <memoria<7>_1_1> <memoria<2>_5_2> <memoria<2>_6_2> <memoria<2>_7_2> <memoria<7>_5_2> <memoria<2>_9_0> 
+INFO:Xst:2261 - The FF/Latch <memoria<7>_9_2> in Unit <RAM_TETRIS> is equivalent to the following 181 FFs/Latches, which will be removed : <memoria<4>_1_2> <memoria<4>_5_0> <memoria<4>_9_2> <memoria<1>_2_0> <memoria<1>_2_2> <memoria<1>_10_0> <memoria<1>_10_2> <memoria<1>_3_0> <memoria<1>_3_2> <memoria<6>_1_2> <memoria<1>_11_0> <memoria<1>_11_2> <memoria<1>_4_0> <memoria<1>_4_2> <memoria<1>_12_0> <memoria<1>_12_2> <memoria<1>_5_0> <memoria<1>_5_2> <memoria<1>_13_0> <memoria<1>_13_2> <memoria<1>_6_0> <memoria<1>_6_2> <memoria<1>_14_0> <memoria<1>_14_2> <memoria<1>_7_0> <memoria<1>_7_2> <memoria<6>_5_0> <memoria<1>_20_0> <memoria<1>_20_2> <memoria<1>_15_0> <memoria<1>_15_2> <memoria<3>_10_2> <memoria<1>_8_0> <memoria<1>_8_2> <memoria<1>_21_0> <memoria<1>_21_2> <memoria<1>_16_0> <memoria<1>_16_2> <memoria<1>_9_0> <memoria<1>_9_2> <memoria<2>_14_0> <memoria<1>_22_0> <memoria<1>_22_2> <memoria<1>_17_0> <memoria<1>_17_2> <memoria<2>_15_0> <memoria<2>_20_0> <memoria<1>_23_0> <memoria<1>_23_2> <memoria<1>_18_0>
+   <memoria<1>_18_2> <memoria<2>_16_0> <memoria<4>_11_2> <memoria<1>_19_0> <memoria<1>_19_2> <memoria<6>_9_2> <memoria<1>_24_0> <memoria<1>_24_2> <memoria<3>_14_0> <memoria<1>_30_0> <memoria<1>_30_2> <memoria<1>_25_0> <memoria<1>_25_2> <memoria<3>_20_0> <memoria<1>_26_0> <memoria<1>_26_2> <memoria<5>_11_2> <memoria<4>_14_0> <memoria<1>_27_0> <memoria<1>_27_2> <memoria<2>_25_2> <memoria<4>_20_0> <memoria<4>_15_0> <memoria<1>_28_0> <memoria<1>_28_2> <memoria<2>_26_2> <memoria<4>_16_0> <memoria<1>_29_0> <memoria<1>_29_2> <memoria<3>_19_2> <memoria<5>_14_0> <memoria<3>_1_2> <memoria<3>_25_2> <memoria<5>_20_0> <memoria<3>_31_0> <memoria<4>_19_2> <memoria<6>_14_0> <memoria<4>_25_2> <memoria<3>_28_0> <memoria<8>_10_0> <memoria<8>_10_2> <memoria<8>_2_0> <memoria<8>_2_2> <memoria<4>_31_0> <memoria<4>_26_2> <memoria<3>_5_0> <memoria<6>_21_0> <memoria<8>_11_0> <memoria<8>_11_2> <memoria<7>_14_0> <memoria<8>_3_0> <memoria<8>_3_2> <memoria<8>_12_0> <memoria<8>_12_2> <memoria<5>_25_2> <memoria<7>_15_0> <memoria<8>_4_0>
+   <memoria<8>_4_2> <memoria<8>_13_0> <memoria<8>_13_2> <memoria<7>_16_0> <memoria<8>_5_0> <memoria<8>_5_2> <memoria<6>_19_2> <memoria<8>_14_0> <memoria<8>_14_2> <memoria<8>_6_0> <memoria<8>_6_2> <memoria<3>_9_2> <memoria<6>_25_2> <memoria<8>_15_0> <memoria<8>_15_2> <memoria<8>_20_0> <memoria<8>_20_2> <memoria<5>_28_0> <memoria<8>_7_0> <memoria<8>_7_2> <memoria<6>_31_0> <memoria<8>_16_0> <memoria<8>_16_2> <memoria<8>_21_0> <memoria<8>_21_2> <memoria<5>_29_0> <memoria<7>_19_2> <memoria<8>_8_0> <memoria<8>_8_2> <memoria<8>_17_0> <memoria<8>_17_2> <memoria<8>_22_0> <memoria<8>_22_2> <memoria<7>_25_2> <memoria<8>_9_0> <memoria<8>_9_2> <memoria<6>_28_0> <memoria<8>_18_0> <memoria<8>_18_2> <memoria<8>_23_0> <memoria<8>_23_2> <memoria<7>_26_2> <memoria<7>_31_0> <memoria<8>_19_0> <memoria<8>_19_2> <memoria<8>_24_0> <memoria<8>_24_2> <memoria<8>_30_0> <memoria<8>_30_2> <memoria<8>_25_0> <memoria<8>_25_2> <memoria<8>_26_0> <memoria<8>_26_2> <memoria<8>_27_0> <memoria<8>_27_2> <memoria<8>_28_0> <memoria<8>_28_2>
+   <memoria<5>_1_2> <memoria<8>_29_0> <memoria<8>_29_2> <memoria<5>_3_2> <memoria<5>_5_0> <memoria<5>_6_0> <memoria<5>_7_0> <memoria<5>_9_2> <memoria<2>_1_2> <memoria<7>_1_2> <memoria<7>_2_2> <memoria<2>_5_0> <memoria<7>_3_2> <memoria<2>_6_0> <memoria<2>_7_0> <memoria<7>_5_0> <memoria<2>_9_2> 
+WARNING:Xst:2170 - Unit TETRIS_MAIN : the following signal(s) form a combinatorial loop: QGIRO.
+WARNING:Xst:2170 - Unit TETRIS_MAIN : the following signal(s) form a combinatorial loop: QIZ.
+WARNING:Xst:2170 - Unit TETRIS_MAIN : the following signal(s) form a combinatorial loop: LEDOUT.
+WARNING:Xst:2170 - Unit TETRIS_MAIN : the following signal(s) form a combinatorial loop: QDE.
+
+Optimizing unit <TETRIS_MAIN> ...
+
+Optimizing unit <RAM> ...
+
+Optimizing unit <VGA> ...
+
+Optimizing unit <lfsr1> ...
+
+Optimizing unit <DISPLAY> ...
+
+Optimizing unit <RAM_TETRIS> ...
+WARNING:Xst:1710 - FF/Latch <FIGURA_1> (without init value) has a constant value of 0 in block <TETRIS_MAIN>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <FIGURA_2> (without init value) has a constant value of 0 in block <TETRIS_MAIN>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TETRIS_MAIN, actual ratio is 89.
+FlipFlop GAMEOVER has been replicated 1 time(s) to handle iob=true attribute.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 966
+ Flip-Flops                                            : 966
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TETRIS_MAIN.ngr
+Top Level Output File Name         : TETRIS_MAIN
+Output Format                      : NGC
+Optimization Goal                  : Area
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 26
+
+Cell Usage :
+# BELS                             : 3274
+#      GND                         : 1
+#      INV                         : 17
+#      LUT1                        : 83
+#      LUT2                        : 142
+#      LUT3                        : 425
+#      LUT4                        : 2187
+#      MUXCY                       : 97
+#      MUXF5                       : 233
+#      VCC                         : 1
+#      XORCY                       : 88
+# FlipFlops/Latches                : 966
+#      FD                          : 140
+#      FDC                         : 4
+#      FDE                         : 623
+#      FDR                         : 94
+#      FDRE                        : 68
+#      FDRS                        : 5
+#      FDS                         : 9
+#      FDSE                        : 23
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 25
+#      IBUF                        : 5
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-4 
+
+ Number of Slices:                     1689  out of   1920    87%  
+ Number of Slice Flip Flops:            955  out of   3840    24%  
+ Number of 4 input LUTs:               2854  out of   3840    74%  
+ Number of IOs:                          26
+ Number of bonded IOBs:                  26  out of    173    15%  
+    IOB Flip Flops:                      11
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK25MHz/CLK251                    | BUFG                   | 878   |
+CLK                                | BUFGP                  | 72    |
+CLK500HZ/C500HZ                    | NONE(DB9/Q3)           | 16    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESETNA(RESETNA:Q)                 | NONE(NA/count_i_0)     | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 47.930ns (Maximum Frequency: 20.864MHz)
+   Minimum input arrival time before clock: 11.917ns
+   Maximum output required time after clock: 12.884ns
+   Maximum combinational path delay: 10.552ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK25MHz/CLK251'
+  Clock period: 47.930ns (frequency: 20.864MHz)
+  Total number of paths / destination ports: 1351014 / 1551
+-------------------------------------------------------------------------
+Delay:               47.930ns (Levels of Logic = 30)
+  Source:            X_2 (FF)
+  Destination:       Y_3 (FF)
+  Source Clock:      CLK25MHz/CLK251 rising
+  Destination Clock: CLK25MHz/CLK251 rising
+
+  Data Path: X_2 to Y_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q            168   0.720   2.700  X_2 (X_2)
+     LUT3:I2->O           44   0.551   1.990  RAM1/LECTURA_2_cmp_eq001611 (RAM1/N64)
+     LUT3:I2->O           30   0.551   1.910  RAM1/LECTURA_2_cmp_eq00191 (RAM1/LECTURA_2_cmp_eq0019)
+     LUT4:I2->O            1   0.551   0.869  RAM1/LECTURA_0_mux00001231 (RAM1/LECTURA_0_mux00001231)
+     LUT4:I2->O            1   0.551   0.827  RAM1/LECTURA_0_mux00001241 (RAM1/LECTURA_0_mux00001241)
+     LUT4:I3->O            1   0.551   0.827  RAM1/LECTURA_0_mux00001408_SW0 (N720)
+     LUT4:I3->O            1   0.551   0.827  RAM1/LECTURA_0_mux00001408 (RAM1/LECTURA_0_mux00001408)
+     LUT4:I3->O            1   0.551   0.827  RAM1/LECTURA_0_mux00001417 (RAM1/LECTURA_0_mux00001417)
+     LUT4:I3->O           17   0.551   1.540  RAM1/LECTURA_0_mux00001430 (LECTURA<0>)
+     LUT4:I1->O            1   0.551   0.827  Y_mux0007146_SW0 (N1224)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007146 (Y_mux0007146)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007192_SW0 (N1226)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007192 (Y_mux0007192)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007242_SW0 (N1228)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007242 (Y_mux0007242)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007281 (Y_mux0007281)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007323 (Y_mux0007323)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007361 (Y_mux0007361)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007400 (Y_mux0007400)
+     LUT4:I3->O            1   0.551   0.827  Y_mux0007440 (Y_mux0007440)
+     LUT4:I3->O            1   0.551   0.869  Y_mux0007488 (Y_mux0007488)
+     LUT3:I2->O            9   0.551   1.150  Y_mux0007519 (Y_mux00071)
+     LUT4:I3->O            1   0.551   0.827  Maddsub_Y_share0000_xor<3>11_SW0 (N708)
+     LUT4:I3->O            2   0.551   0.903  Maddsub_Y_share0000_xor<3>11 (N154)
+     LUT4:I3->O            3   0.551   0.975  Maddsub_Y_share0000_xor<3>121 (N1701)
+     LUT3:I2->O            5   0.551   0.947  Maddsub_Y_share0000_xor<3>12 (Y_share0000<3>)
+     LUT4:I3->O            1   0.551   0.869  Y_mux0005<3>398 (Y_mux0005<3>398)
+     LUT4:I2->O            1   0.551   0.827  Y_mux0005<3>443 (Y_mux0005<3>443)
+     LUT4:I3->O            1   0.551   0.869  Y_mux0005<3>491 (Y_mux0005<3>491)
+     LUT3:I2->O            1   0.551   0.827  Y_mux0005<3>524 (Y_mux0005<3>524)
+     LUT4:I3->O            1   0.551   0.000  Y_mux0005<3>564 (Y_mux0005<3>)
+     FDE:D                     0.203          Y_3
+    ----------------------------------------
+    Total                     47.930ns (17.453ns logic, 30.477ns route)
+                                       (36.4% logic, 63.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.549ns (frequency: 152.695MHz)
+  Total number of paths / destination ports: 2518 / 143
+-------------------------------------------------------------------------
+Delay:               6.549ns (Levels of Logic = 2)
+  Source:            CLK500HZ/COUNTER_3 (FF)
+  Destination:       CLK500HZ/COUNTER_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: CLK500HZ/COUNTER_3 to CLK500HZ/COUNTER_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.720   1.216  CLK500HZ/COUNTER_3 (CLK500HZ/COUNTER_3)
+     LUT4:I0->O            1   0.551   1.140  CLK500HZ/C500HZ_cmp_eq00004 (CLK500HZ/C500HZ_cmp_eq00004)
+     LUT4:I0->O           17   0.551   1.345  CLK500HZ/C500HZ_cmp_eq000055 (CLK500HZ/C500HZ_cmp_eq0000)
+     FDR:R                     1.026          CLK500HZ/COUNTER_0
+    ----------------------------------------
+    Total                      6.549ns (2.848ns logic, 3.701ns route)
+                                       (43.5% logic, 56.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK500HZ/C500HZ'
+  Clock period: 1.989ns (frequency: 502.765MHz)
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Delay:               1.989ns (Levels of Logic = 0)
+  Source:            PUNTAJES/STATE_FSM_FFd2 (FF)
+  Destination:       PUNTAJES/STATE_FSM_FFd1 (FF)
+  Source Clock:      CLK500HZ/C500HZ rising
+  Destination Clock: CLK500HZ/C500HZ rising
+
+  Data Path: PUNTAJES/STATE_FSM_FFd2 to PUNTAJES/STATE_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.720   1.066  PUNTAJES/STATE_FSM_FFd2 (PUNTAJES/STATE_FSM_FFd2)
+     FD:D                      0.203          PUNTAJES/STATE_FSM_FFd1
+    ----------------------------------------
+    Total                      1.989ns (0.923ns logic, 1.066ns route)
+                                       (46.4% logic, 53.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK25MHz/CLK251'
+  Total number of paths / destination ports: 22 / 22
+-------------------------------------------------------------------------
+Offset:              11.917ns (Levels of Logic = 7)
+  Source:            BDOWN (PAD)
+  Destination:       ESTADO_0 (FF)
+  Destination Clock: CLK25MHz/CLK251 rising
+
+  Data Path: BDOWN to ESTADO_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.801  BDOWN_IBUF (BDOWN_IBUF)
+     MUXF5:S->O            1   0.621   0.996  BAJAR/aux1 (N971)
+     LUT3:I1->O           12   0.551   1.186  BAJAR/aux2 (LEDOUT_OBUF)
+     LUT3:I2->O            4   0.551   0.943  ESTADO_mux0142<116>341 (N3171)
+     LUT4:I3->O            1   0.551   1.140  ESTADO_mux0142<116>17_SW0 (N976)
+     LUT4:I0->O            1   0.551   0.827  ESTADO_mux0142<116>17 (ESTADO_mux0142<116>17)
+     LUT4:I3->O            1   0.551   0.801  ESTADO_mux0142<116>47 (ESTADO_mux0142<116>47)
+     FDRS:S                    1.026          ESTADO_0
+    ----------------------------------------
+    Total                     11.917ns (5.223ns logic, 6.694ns route)
+                                       (43.8% logic, 56.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK500HZ/C500HZ'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.825ns (Levels of Logic = 1)
+  Source:            BGIRO (PAD)
+  Destination:       DB9/Q1 (FF)
+  Destination Clock: CLK500HZ/C500HZ rising
+
+  Data Path: BGIRO to DB9/Q1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.801  BGIRO_IBUF (BGIRO_IBUF)
+     FD:D                      0.203          DB9/Q1
+    ----------------------------------------
+    Total                      1.825ns (1.024ns logic, 0.801ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK25MHz/CLK251'
+  Total number of paths / destination ports: 126 / 15
+-------------------------------------------------------------------------
+Offset:              12.417ns (Levels of Logic = 4)
+  Source:            C_1 (FF)
+  Destination:       S8<6> (PAD)
+  Source Clock:      CLK25MHz/CLK251 rising
+
+  Data Path: C_1 to S8<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              6   0.720   1.198  C_1 (C_1)
+     LUT4:I1->O            1   0.551   0.996  PUNTAJES/DN<1>4 (PUNTAJES/DN<1>4)
+     LUT3:I1->O            7   0.551   1.405  PUNTAJES/DN<1>18 (PUNTAJES/DN<1>)
+     LUT4:I0->O            1   0.551   0.801  PUNTAJES/Mrom_S821 (S8_2_OBUF)
+     OBUF:I->O                 5.644          S8_2_OBUF (S8<2>)
+    ----------------------------------------
+    Total                     12.417ns (8.017ns logic, 4.400ns route)
+                                       (64.6% logic, 35.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK500HZ/C500HZ'
+  Total number of paths / destination ports: 228 / 11
+-------------------------------------------------------------------------
+Offset:              12.884ns (Levels of Logic = 4)
+  Source:            PUNTAJES/STATE_FSM_FFd3 (FF)
+  Destination:       S8<6> (PAD)
+  Source Clock:      CLK500HZ/C500HZ rising
+
+  Data Path: PUNTAJES/STATE_FSM_FFd3 to S8<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.720   1.405  PUNTAJES/STATE_FSM_FFd3 (PUNTAJES/STATE_FSM_FFd3)
+     LUT4:I0->O            4   0.551   1.256  PUNTAJES/DN_or00001 (PUNTAJES/DN_or0000)
+     LUT3:I0->O            7   0.551   1.405  PUNTAJES/DN<3>18 (PUNTAJES/DN<3>)
+     LUT4:I0->O            1   0.551   0.801  PUNTAJES/Mrom_S841 (S8_4_OBUF)
+     OBUF:I->O                 5.644          S8_4_OBUF (S8<4>)
+    ----------------------------------------
+    Total                     12.884ns (8.017ns logic, 4.867ns route)
+                                       (62.2% logic, 37.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               10.552ns (Levels of Logic = 4)
+  Source:            BDOWN (PAD)
+  Destination:       LEDOUT (PAD)
+
+  Data Path: BDOWN to LEDOUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.801  BDOWN_IBUF (BDOWN_IBUF)
+     MUXF5:S->O            1   0.621   0.996  BAJAR/aux1 (N971)
+     LUT3:I1->O           12   0.551   1.118  BAJAR/aux2 (LEDOUT_OBUF)
+     OBUF:I->O                 5.644          LEDOUT_OBUF (LEDOUT)
+    ----------------------------------------
+    Total                     10.552ns (7.637ns logic, 2.915ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 122.00 secs
+Total CPU time to Xst completion: 121.50 secs
+ 
+--> 
+
+Total memory usage is 6868804 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  688 (   0 filtered)
+Number of infos    :   44 (   0 filtered)
+

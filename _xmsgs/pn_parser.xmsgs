@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_25MHz.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_500HZ.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/CLK_FIGURA2.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DEBOUNCE.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DECODER_LOGO.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/DISPLAY.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/JK.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/LOGO_TETRIS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/MAIN.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/RAM_TETRIS.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/VGA.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/Jesus Anaya/Documents/Clases/LaboratorioDeSistemasDigitales/Tetris2.0/lfsr1.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+
